@@ -21,14 +21,14 @@ function App() {
                 <header>
                     <div>
                         <svg width="24" height="24">
-                            <use href="/public/sprite.svg#icon-pokeball"></use>
+                            <use xlinkHref="/sprite.svg#icon-pokeball"></use>
                         </svg>
                         <h1 className='title'>Pokédex</h1>
                     </div>
                     <div>
                         <form className='header-form'>
                             <svg width="16" height="16">
-                                <use xlinkHref="/public/sprite.svg#icon-search"></use>
+                                <use xlinkHref="/sprite.svg#icon-search"></use>
                             </svg>
                             <input 
                                 placeholder="Search"
@@ -46,7 +46,7 @@ function App() {
                         </form>
                         <button className='open-modal' type='button' onClick={openModal}>
                             <svg width="16" height="16">
-                                <use xlinkHref="/public/sprite.svg#icon-tag"></use>
+                                <use xlinkHref="/sprite.svg#icon-tag"></use>
                             </svg>
                         </button>
                     </div>
