@@ -1,0 +1,80 @@
+.whole-program {
+    display: flex;
+    gap: 48px;
+
+    .container {
+        background-color: #DC0A2D;
+        width: 360px;
+        height: 640px;
+        padding: 4px;
+    
+        header {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin: 12px 12px 24px 12px;
+    
+    
+            div {
+                display: flex;
+                gap: 16px;
+    
+                .header-form {
+                    background-color: #fff;
+                    border-radius: 16px;
+                    display: flex;
+                    gap: 8px;
+                    padding: 8px 16px 8px 12px;
+                    align-items: center;
+                    height: 32px;
+                    box-shadow: 0px 1px 3px 1px #00000040 inset;
+    
+                    input {
+                        border: none;
+                        width: 228px;
+                    }
+    
+                    input:hover,
+                    input:focus,
+                    input:active {
+                        outline: none;
+                    }
+                }
+    
+                .open-modal {
+                    border-radius: 16px;
+                    padding: 8px;
+                    width: 32px;
+                    height: 32px;
+                    border: none;
+                    cursor: pointer;
+                    box-shadow: 0px 1px 3px 1px #00000040 inset;
+                }
+            }
+        }
+    
+        .pokemon-found {
+            background-color: #fff;
+            box-shadow: 0px 1px 3px 1px #00000040 inset;
+            height: 524px;
+            border-radius: 8px;
+            padding: 24px 12px;
+
+            .buttons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+
+                button {
+                    border: none;
+                    border-radius: 10px;
+                    padding: 5px;
+                    background-color: #DC0A2D;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

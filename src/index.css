@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+h2 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+}

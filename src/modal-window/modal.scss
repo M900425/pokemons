@@ -1,0 +1,42 @@
+.modal-window {
+    background-color: #DC0A2D;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 4px 4px 4px;
+    border-radius: 12px;
+    height: 132px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    &.is-open {
+            opacity: 1;
+        }
+
+    h2 {
+        padding: 16px 38px 0 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        background-color: #fff;
+        box-shadow: 0px 1px 3px 1px #00000040 inset;
+        border-radius: 8px;
+        padding: 16px 20px;
+
+        label {
+            display: flex;
+            gap: 8px;
+
+            input {
+                cursor: pointer;
+            }
+
+            span {
+                font-size: 10px;
+            }
+        }
+    }
+}
