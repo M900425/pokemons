@@ -1,0 +1,36 @@
+.login_page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #DC0A2D;
+
+    .log_input {
+        width: 300px;
+        height: 40px;
+        padding: 3px 10px;
+        border-radius: 8px;
+        border: none;
+        box-shadow: 0px 1px 3px 1px #00000040 inset;
+
+        &:hover,
+        &:focus,
+        &:active {
+            outline: none;
+        }
+    }
+
+    .log_button {
+        background-color: #fff;
+        box-shadow: 0px 1px 3px 1px #00000040 inset;
+        text-align: center;
+        border: none;
+        border-radius: 8px;
+        width: 90px;
+        height: 40px;
+        cursor: pointer;
+    }
+}

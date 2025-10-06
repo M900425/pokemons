@@ -1,9 +1,9 @@
 import { useState } from "react";
-import './App.scss';
-import Modal from './modal-window/modal';
-import PokemonsLst from "./pokemons-lst/pokemons-lst";
-import ModalPokemon from "./modal-pokemon/modal-pokemon";
-import type { PokemonDetails } from "./pokemon-types"; // <- окремий файл для типу
+import './MainPage.scss';
+import Modal from '../../components/modal-window/modal';
+import PokemonsLst from "../../components/pokemons-lst/pokemons-lst";
+import ModalPokemon from "../../components/modal-pokemon/modal-pokemon";
+import type { PokemonDetails } from "../../types/pokemon-types";
 
 function App() {
     const [isModalOpen, setIsModalOpen] = useState(false);

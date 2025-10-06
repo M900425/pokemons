@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./pokemons-lst.scss";
-import type { PokemonDetails } from "../pokemon-types";
+import type { PokemonDetails } from "../../types/pokemon-types";
 
 interface Pokemon {
   id: string;
@@ -46,7 +46,6 @@ export default function PokemonsLst({
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
   const [searchResult, setSearchResult] = useState<Pokemon | null>(null);
 
-  // завантаження списку для пагінації
   useEffect(() => {
     const loadPokemons = async () => {
       try {

@@ -1,5 +1,5 @@
 import './modal-pokemon.scss';
-import type { PokemonDetails } from '../pokemon-types';
+import type { PokemonDetails } from '../../types/pokemon-types';
 import { HiArrowLeft } from "react-icons/hi2";
 
 interface ModalP {
